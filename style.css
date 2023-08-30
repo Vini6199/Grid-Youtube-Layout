@@ -1,0 +1,60 @@
+body {
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.cima {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 24px 3px 24px;
+    background: white;
+}
+
+.logo {
+    padding: 10px 20px 8px 15px;
+}
+
+.perfil {
+    padding: 10px 24px 5px 24px;
+}
+   
+.bell {
+    padding: 13px 91%;
+    position: absolute;
+}
+
+.nave {
+    display: block;
+    line-height: 22px;
+    background: white;
+    width: 218px;
+    height: 968px;
+    padding: 16px 37px;
+}
+
+.comp {
+    display: flex;
+}
+
+.comp img {
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+main {
+    position: absolute;
+    top: 60px;
+    left: 290px;
+    padding: 30px 30px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.video {
+    width: 282px;
+    height: 262px;
+}
